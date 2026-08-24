@@ -1,4 +1,4 @@
-package Umamusume;
+package umamusume;
 
 public class BaseUma {
     private final String name;

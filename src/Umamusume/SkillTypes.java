@@ -1,4 +1,4 @@
-package Umamusume;
+package umamusume;
 
 public interface SkillTypes {
     enum Standard implements SkillTypes {

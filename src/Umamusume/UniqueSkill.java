@@ -1,4 +1,4 @@
-package Umamusume;
+package umamusume;
 
 import java.util.ArrayList;
 
