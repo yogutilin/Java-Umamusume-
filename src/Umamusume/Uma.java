@@ -11,6 +11,7 @@ public class Uma extends BaseUma {
     private static int power;
     private static int guts;
     private static int wit;
+    private static Map<String, Double> bonuses;
     private static Map<String, String> aptitudes;
     private static UniqueSkill uniqueSkill;
     private static HashMap<String, Skill> skills;
@@ -32,6 +33,7 @@ public class Uma extends BaseUma {
         this.power = builder.power;
         this.guts = builder.guts;
         this.wit = builder.wit;
+        this.bonuses = builder.bonuses;
         this.aptitudes = builder.aptitudes;
 
         this.uniqueSkill = builder.uniqueSkill;
@@ -90,6 +92,7 @@ public class Uma extends BaseUma {
         private int power;
         private int guts;
         private int wit;
+        private Map<String, Double> bonuses;
         private Map<String, String> aptitudes;
         private UniqueSkill uniqueSkill;
         private HashMap<String, Skill> skills;
@@ -153,6 +156,11 @@ public class Uma extends BaseUma {
 
         public UmaBuilder setPotentialSkills(HashMap<String, Skill> potentialSkills) {
             this.potentialSkills = potentialSkills;
+            return this;
+        }
+
+        public UmaBuilder setBonuses(Map<String, Double> bonuses) {
+            this.bonuses = bonuses;
             return this;
         }
 

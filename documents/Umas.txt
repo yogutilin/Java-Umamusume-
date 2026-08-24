@@ -1,1 +1,1 @@
-Meisho Doto, [Turbulent Blue], 3 ; 93,95,85,96,81 ; 0,1.20,0,1.10,0 ; A, E, G, F, A, A, F, A, B, E ; "I Never Goof Up!"
+[Turbulent Blue], 3 ; 93,95,85,96,81 ; 0,1.20,0,1.10,0 ; A, E, G, F, A, A, F, A, B, E ; "I Never Goof Up!"
