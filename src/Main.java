@@ -17,10 +17,10 @@ public class Main extends JPanel {
             throw new RuntimeException(e);
         }
 
-        // Bucle de animación: Se dispara cada 16 milisegundos (aprox. 60 FPS)
+        // 16 ms = 60 fps (allegedly)
         Timer timer = new Timer(16, e -> {
             ticks++;
-            repaint(); // Solicita a paintComponent que se vuelva a ejecutar
+            repaint();
         });
         timer.start();
     }
